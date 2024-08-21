@@ -7,6 +7,8 @@
 /* components styles*/
 @import './components/navbar/index.css' ;
 @import './components/Cart/index.css' ;
+@import './components/ItemLIstContainer/index.css';
+
 
 
 
