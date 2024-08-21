@@ -1,0 +1,14 @@
+/* global styles*/
+@import './styles/reset.css';
+@import './styles/shared.css';
+
+
+
+/* components styles*/
+@import './components/navbar/index.css' ;
+
+
+
+
+
+
