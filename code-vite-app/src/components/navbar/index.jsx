@@ -1,17 +1,25 @@
 import React from 'react';
-
-
+import CartWidget from '../Cart';
+import logo from '../../assets/img/logo.jpeg'
 
 const Navbar = () => {
     
     return (
         <>
-<header className='header container' >
-    <nav className='navbar'>
-    <li className='navbar__link'><a href="">inicio</a></li>
-    <li className='navbar__link'><a href="">productos</a></li>
-    <li className='navbar__link'><a href="">contacto</a></li>
-    <li className='navbar__link'><a href="">carrito</a></li>
+<header className='header'>
+    <nav className='navbar container'>
+        <figure>
+            <img src={logo} alt="" />
+        </figure>
+        <menu className='navbar__menu'>
+            <li className='navbar__list'><a className='navbar__link' href="">inicio</a></li>
+            <li className='navbar__list'><a className='navbar__link' href="">productos</a></li>
+            <li className='navbar__list'><a className='navbar__link' href="">contacto</a></li>
+    </menu>
+    <li><a className='navbar__link__carrito' href="">
+                <CartWidget/>
+                </a>
+            </li>
     </nav>
 </header>
 </>
