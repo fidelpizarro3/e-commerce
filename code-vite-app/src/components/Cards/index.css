@@ -1,0 +1,21 @@
+.sectionCards {
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 400px;
+}
+
+
+
+.imgCards {
+    width: 20rem;
+    height: 20rem;
+}
+
+.prueba {
+  
+}
