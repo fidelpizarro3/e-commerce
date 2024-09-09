@@ -1,16 +1,17 @@
+
 /* global styles*/
 @import './styles/reset.css';
 @import './styles/shared.css';
 
 
 
+
 /* components styles*/
-@import './components/navbar/index.css' ;
-@import './components/Cart/index.css' ;
-@import './components/ItemLIstContainer/index.css';
-@import './components/Cards/index.css';
-
-
+@import './components/navbar/index.css';
+@import './components/Cart/index.css';
+@import './components/productosCatalogo/index.css';
+@import './components/hero/index.css';
+@import './components/menu/index.css';
 
 
 

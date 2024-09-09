@@ -1,18 +1,19 @@
-import Navbar from './components/navbar'
+import Navbar from './components/Navbar'
 import './App.css'
-import ItemListContainer from './components/ItemLIstContainer/ItemListContainer'
-import Cards from './components/Cards'
-import Count from './components/setCount'
+import ProductosCatalogo from './components/productosCatalogo'
+import Hero from './components/hero'
+import Footer from './components/footer'
 function App() {
 
   return (
     <>
   <Navbar/>
-  <ItemListContainer greeting = {'Bienvenidos a Mates brujula'}/>
-  <Cards />
+  <Hero/>
+  <ProductosCatalogo/>
+  <Footer/>
   </>
 
   )
 }
 
-export default App
+export default App;

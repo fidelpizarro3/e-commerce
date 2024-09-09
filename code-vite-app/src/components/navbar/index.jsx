@@ -1,6 +1,7 @@
 import React from 'react';
 import CartWidget from '../Cart';
 import logo from '../../assets/img/logo.jpeg'
+import Menu from '../menu';
 
 const Navbar = () => {
     
@@ -11,15 +12,11 @@ const Navbar = () => {
         <figure>
             <img className='imgHeader' src={logo} alt="" />
         </figure>
-        <menu className='navbar__menu'>
-            <li className='navbar__list'><a className='navbar__link' href="">inicio</a></li>
-            <li className='navbar__list'><a className='navbar__link' href="">productos</a></li>
-            <li className='navbar__list'><a className='navbar__link' href="">contacto</a></li>
-    </menu>
+    <Menu/>
     <li><a className='navbar__link__carrito' href="">
-                <CartWidget/>
-                </a>
-            </li>
+            <CartWidget/>
+        </a>
+    </li>
     </nav>
 </header>
 </>
