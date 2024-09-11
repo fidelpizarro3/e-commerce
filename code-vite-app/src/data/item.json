@@ -2,35 +2,35 @@
 
 [
     {
-        "id":"01",
+        "id":"1",
         "imagen":"./src/assets/imagenesMates/matesImperiales/imperial-1.jpeg",
         "nombre": "mate imperial",
         "detalles": "mate imperial de calabaza forrado en cuero marron con virola de alpaca cincelada y apliques",
         "precio": "$50.000"
     },
     {
-        "id":"02",
+        "id":"2",
         "imagen":"./src/assets/imagenesMates/matesImperiales/imperial-2.jpeg",
         "nombre": "mate imperial",
         "detalles": "mate imperial de calabaza forrado en cuero negro con virola de alpaca lisa",
         "precio": "$50.000"
     },
     {
-        "id":"03",
+        "id":"3",
         "imagen":"./src/assets/imagenesMates/matesImperiales/imperial-3.jpeg",
         "nombre": "mate imperial",
         "detalles": "mate imperial de calabaza con base forrado en cuero marron con virola de bronce cincelada",
         "precio": "$50.000"
     },
     {
-        "id":"04",
+        "id":"4",
         "imagen":"./src/assets/imagenesMates/matesImperiales/imperial-4.jpeg",
         "nombre": "mate imperial",
         "detalles": "mate imperial de calabaza forrado en cuero negro con virola de bronce cincelada",
         "precio": "$50.000"
     },
     {
-        "id":"05",
+        "id":"5",
         "imagen":"./src/assets/imagenesMates/matesImperiales/imperial-5.jpeg",
         "nombre": "mate imperial",
         "detalles": "mate imperial de calabaza forrado en cuero negro tejido con virola de alpaca lisa",
@@ -38,21 +38,21 @@
     },
 
     {
-        "id":"06",
+        "id":"6",
         "imagen":"./src/assets/imagenesMates/matesTorpedos/torpedo-1.jpeg",
         "nombre": "mate torpedo",
         "detalles": "mate torpedo de calabaza forrado en cuero con virola de acero inoxidable lisa",
         "precio": "$50.000"
     },
     {
-        "id":"07",
+        "id":"7",
         "imagen":"./src/assets/imagenesMates/matesTorpedos/torpedo-2.jpeg",
         "nombre": "mate torpedo",
         "detalles": "mate torpedo forrado en cuero marron repujado con virola de alpaca cincelada",
         "precio": "$50.000"
     },
     {
-        "id":"08",
+        "id":"8",
         "imagen":"./src/assets/imagenesMates/matesTorpedos/torpedo-3.jpeg",
         "nombre": "mate torpedo",
         "detalles": "mate torpedo imperial forrado en cuero negro con virola de alpaca cincelada",
