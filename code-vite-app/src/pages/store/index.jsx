@@ -5,6 +5,8 @@ const Store = () => {
     return (
         <>
         <ProductosCatalogo/>
+
+
         </>
     );
 }

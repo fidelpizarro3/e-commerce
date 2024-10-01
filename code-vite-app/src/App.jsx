@@ -15,8 +15,8 @@ function App() {
     <Routes>
       <Route exact path='/' element={<Home/>}/>
       <Route exact path='/productos' element = {<Store/>}/>
-      <Route exact path='/detalles/:id' element = {<Detail/>}/>
-    </Routes>
+      <Route exact path="/detalles/:id" element= {<Detail />} /> {/* Ruta para detalles */}    
+      </Routes>
     <Footer/>
   </BrowserRouter>
 

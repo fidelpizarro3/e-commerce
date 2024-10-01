@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5dc; /* Fondo base */
+}
+
+.item-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    border-radius: 10px;
+    box-shadow: 0 14px 50px rgba(0, 0, 0, 0.1);
+    position: relative;
+    backdrop-filter: blur(10px); /* Efecto de fondo borroso */
+    max-width: 600px; /* Ancho máximo */
+    margin: 50px auto; /* Centrar en la página */
+}
+
+.imagen-detail {
+    width: 80%; /* Ajustar imagen al 80% del contenedor */
+    max-width: 300px; /* Ancho máximo de la imagen */
+    border-radius: 10px;
+    object-fit: cover; /* Ajustar la imagen sin distorsionar */
+    margin-bottom: 20px; /* Espacio debajo de la imagen */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin-left: auto; /* Centra la imagen horizontalmente */
+    margin-right: auto; /* Centra la imagen horizontalmente */
+}
+
+.descripcion-contenedor {
+    text-align: center; /* Centrar texto */
+    padding: 20px; /* Espaciado interno */
+}
+
+h1 {
+    font-size: 2rem; /* Tamaño de fuente para el nombre del producto */
+    color: #333; /* Color del texto */
+    margin: 0; /* Eliminar márgenes */
+}
+
+p {
+    font-size: 1.2rem; /* Tamaño de fuente para detalles y precio */
+    color: #666; /* Color del texto */
+    margin: 10px 0; /* Espaciado vertical entre párrafos */
+}
+
+button {
+    background-color: #007bff; /* Color del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 1rem; /* Tamaño de fuente del botón */
+    transition: background-color 0.3s; /* Transición suave al pasar el mouse */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color del botón al pasar el mouse */
+}

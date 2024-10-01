@@ -1,3 +1,26 @@
+.hero-container {
+    position: relative; 
+    text-align: left; 
+}
+
 .img-hero {
-    width: 100%;
+    width: 100%; 
+    height: auto;
+}
+
+.btn-go-to-store {
+    position: absolute; 
+    top: 30px; 
+    left: 60px; 
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1; 
+}
+
+.btn-go-to-store:hover {
+    background-color: #0056b3;
 }
