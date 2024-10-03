@@ -47,7 +47,7 @@ p {
     margin: 10px 0; /* Espaciado vertical entre párrafos */
 }
 
-button {
+.button-count {
     background-color: #007bff; /* Color del botón */
     color: white; /* Color del texto del botón */
     border: none; /* Sin borde */

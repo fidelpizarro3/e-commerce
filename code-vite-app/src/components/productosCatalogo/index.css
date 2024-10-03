@@ -3,6 +3,8 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    min-height: calc(100vh - 100px); /* Asegura que el contenido ocupe al menos la altura de la ventana */
+    padding-bottom: 50px; /* Evita que el contenido se acerque demasiado al footer */
 }
 
 .product-card {
@@ -17,6 +19,10 @@
     background-color: #f9f9f9;
 }
 
+.item-nombre {
+    margin: 15px;
+}
+
 .imagen-producto {
     width: 300px;
     align-items: center;
@@ -29,4 +35,46 @@
     background-color: rgb(11, 85, 11);
     width: 100px;
     height: 50px;
+}
+
+.agregarCarrito {
+    border-radius: 10px;
+    background-color: rgb(11, 85, 11);
+    width: 160px;
+    height: 50px;
+    color: white;
+}
+
+/* Spinner container */
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    z-index: 1000; /* Asegura que esté sobre otros elementos */
+}
+
+/* Spinner style */
+.spinner {
+    border: 8px solid rgba(0, 0, 0, 0.1); /* Borde gris claro */
+    border-top: 8px solid #007BFF; /* Borde superior de color */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+}
+
+/* Animation for spinner */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
